@@ -1,0 +1,28 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - firebase-functions > lodash:
+        patched: '2020-05-03T02:43:34.355Z'
+    - firebase-tools > lodash:
+        patched: '2020-05-03T02:43:34.355Z'
+    - firebase-tools > @google-cloud/functions-emulator > lodash:
+        patched: '2020-05-03T02:43:34.355Z'
+    - firebase-tools > inquirer > lodash:
+        patched: '2020-05-03T02:43:34.355Z'
+    - firebase-tools > superstatic > lodash:
+        patched: '2020-05-03T02:43:34.355Z'
+    - firebase-tools > @google-cloud/functions-emulator > grpc > lodash:
+        patched: '2020-05-03T02:43:34.355Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > async > lodash:
+        patched: '2020-05-03T02:43:34.355Z'
+    - firebase-tools > @google-cloud/functions-emulator > googleapis > async > lodash:
+        patched: '2020-05-03T02:43:34.355Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > async > lodash:
+        patched: '2020-05-03T02:43:34.355Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > async > lodash:
+        patched: '2020-05-03T02:43:34.355Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > split-array-stream > async > lodash:
+        patched: '2020-05-03T02:43:34.355Z'
