@@ -18,9 +18,9 @@
   "author": "Chris Esplin <chris@quiver.is>",
   "license": "MIT",
   "dependencies": {
-    "firebase-admin": "^5.0.0",
+    "firebase-admin": "^10.0.2",
     "firebase-functions": "^0.5.7",
-    "firebase-tools": "^3.9.0",
+    "firebase-tools": "^6.9.0",
     "yargs": "^8.0.1"
   },
   "devDependencies": {
